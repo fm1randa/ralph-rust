@@ -1,0 +1,16 @@
+[package]
+name = "ralph"
+version = "0.1.0"
+edition = "2021"
+description = "Run AI coding tools iteratively on tasks"
+
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }
+thiserror = "1.0"
+once_cell = "1.19"
+colored = "2.0"
+
+[dev-dependencies]
+assert_cmd = "2.0"
+predicates = "3.0"
+tempfile = "3.0"
